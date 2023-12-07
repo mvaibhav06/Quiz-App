@@ -1,0 +1,54 @@
+.navbar-brand {
+  font-size: 1.7rem;
+}
+
+.timer {
+  display: flex;
+  gap: 20px;
+}
+
+.timer > select {
+  width: 30%;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.options > button {
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.next {
+  display: flex;
+  justify-content: center;
+}
+
+.nextButton {
+  font-size: 1.5rem;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.clicked {
+  background-color: #6c757d;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.container h4 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
